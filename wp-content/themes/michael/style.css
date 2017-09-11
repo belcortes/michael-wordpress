@@ -1,0 +1,171 @@
+/*
+Theme Name: NHA
+Theme URI: http://loganweir.com
+Author: Logan 
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.header {
+	text-align: center;
+	/*width: 100%;*/
+	/*height: 50px;*/
+	/*line-height: 50px;*/
+	font-family: helvetica;
+	font-size: 25px;
+	background-color: white;
+	opacity: 0.4;
+  margin-top: 10px;
+	/*top: 20px;*/
+	/*position: relative;*/
+	/*color: gray;*/
+}
+
+body {
+	margin: 0;
+	font-family: helvetica;
+	background-image: url('../pics/cherry.jpg');
+}
+
+/*#headertext {
+	margin: 0;
+}*/
+
+.tableimg {
+	width: 200px;
+	/*height: 200px;*/
+	/*margin: 0;*/
+	/*padding: 15px;*/
+}
+
+/*.carosel {
+}
+
+.carosel_table {
+	margin: 0 auto;
+}*/
+
+a {
+	text-decoration: none;
+	font-family: helvetica;
+}
+
+/*.slide_img {
+	height: 500px;
+	width: 500px;
+}*/
+/*.slidesjs-container {
+	width: 500px !important;
+	height: 500px !important;
+}
+.slidesjs-slide {
+	width: 500px !important;
+}
+
+#slides {
+	float:left;
+}
+
+#slides2 {
+	float: right;
+}*/
+html, body {
+  height: 100%;
+}
+.container {
+	/*min-height: 100%;*/
+	margin-bottom: -50px !important;
+  text-align: center;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+	/*position: relative;*/
+}
+a:hover {
+  color: black !important;
+}
+#front-content {
+  /*min-height: 90%;*/
+  /*margin-bottom: -40px;*/
+  /*display: flex;*/
+  /*align-items: center;*/
+   /*height: 100%;*/
+   width: 100%;
+   margin-top: 25%;
+   /*display: inline-block;*/
+   /*position: absolute;*/
+   /*top: 40%;*/
+   /*text-align: center*/
+}
+.site-footer {
+  height: 40px; 
+  /*position: relative;*/
+  line-height: 40px;
+  border-top: 1px solid white;
+  color: gray;
+  background-color: white;
+  opacity:0.4;
+  padding-left: 50px;
+}
+#content-left {
+	float: left;
+}
+#content-right {
+	float: right;
+}
+
+#content-left, #content-right {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+/*#content-left .box {
+	background-image: url('../pics/wood-background.jpg');
+}
+#content-right .box {
+	background-image: url('../pics/stone-background.jpg');
+}*/
+.box {
+	width: 200px;
+	border: 5px solid white;
+	padding: 20px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: bolder;
+  color: white;
+}
+.box a {
+	color: white;
+}
+.box a:hover {
+  color: white;
+}
+
+.nav-functions {
+  color: gray;
+  margin: 0 !important;
+}
+.nav-functions a {
+  color: gray;
+}
+ul li {
+  display: inline-block;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.nav-functions li {
+  display: inline-block;
+  font-size: 15px;
+}
+.art-by {
+  display: inline-block;
+}
